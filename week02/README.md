@@ -1,6 +1,7 @@
-# Algoritmos e Estruturas de Dados II
-Repositório feito com o intuito de salvar os códigos da disciplina de Algoritmos e Estrutura de Dados II (DCA0209).
+# week02
 
-Aluno: Paulo Ricardo Dantas
+Na segunda semana foi desenvolvido um código com o objetivo de complementar palavras. Primeiro dado um corpus (conjunto de texto), após ler ele, o programa vai processá-lo e adicioná-lo a uma árvore AVL. 
+A partir dai vai ser pedido um prefixo que o usuário vai digitar e vão ser retornado todas as palavras que começam com aquele prefixo e estão contidas na árvore.
 
-Matrícula 20230000789
+OBS: Para usar o código é necessário adicionar um arquivo de texto (.txt) manualmente com o seguinte nome: "corpus.txt"
+OBS2: O corpus utilizado para o desenvolvimento do programa está disponível aqui no git.
