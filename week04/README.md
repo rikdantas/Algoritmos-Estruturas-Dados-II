@@ -1,4 +1,5 @@
 # Week04
+## Componentes: Paulo Ricardo Dantas e Ivamar Dantas Roque
 Para as semanas 03 e 04 foram passados a conclusão do curso Introduct to Algorithms do DataQuest e o trabalho 4 da unidade 1. Nesse repositório
 vai ser disponbilizado o código base que foi submitido para o projeto guiado que está no fim do curso Introduct to Algorithms. Com base nesse projeto 
 vai ser realizado o trabalho 4.
@@ -25,6 +26,9 @@ de RAM e HD de 256GB).
 #### Análise de Complexidade
   - Realize a análise de complexidade para as funcionalidades implementadas, focando em
 Big O, Big θ, e Big Ω. Documente suas descobertas no arquivo README do repositório.
+
+#### **A função desenvolvida para consultar por faixa de preço tem a complexidade O(N). Já a função para consultar o notebook mais barato com dadas especificações, tem complexidade O(N^2). A análise está melhor descrita no arquivo do trabalho na seção [2/3].**
+
 #### Documentação
   - Adicione comentários e documentação ao código para explicar o que cada parte faz.
 #### Vídeo Explicativo
