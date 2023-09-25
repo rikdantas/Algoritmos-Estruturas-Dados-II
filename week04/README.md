@@ -38,3 +38,6 @@ análise de complexidade foi realizada.
   - Submeta o link do seu repositório no github que contem todos os códigos desenvolvidos e
 ainda no arquivo README uma descrição detalhada de todos os resultados e o link do vídeo
 na plataforma Loom.
+
+#### Link do vídeo no LOOM
+<https://www.loom.com/share/898fd830f99f4be7b5ef2461779f094a?sid=84236057-275c-47b0-9ccd-d0d29f9a86ea>
