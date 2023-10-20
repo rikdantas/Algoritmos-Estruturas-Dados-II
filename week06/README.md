@@ -33,3 +33,9 @@ O entregável inclui o código e a explicação contextualizada para o jogo F1 C
     1. Tarefa livre.
     2. Com base no conteúdo da Semana 05, e considerando a configuração final do jogo F1 Clash derivada das peças do carro, pilotos e garrafa, propor uma solução para auxiliar um jogador a escolher uma configuração específica.
     3. O entregável será o código desenvolvido, as imagens criadas e uma explicação com as principais conclusões.
+
+
+### Explicação para tarefa 1
+A tarefa 1 pede um histograma que nada mais é que um gráfico que conta a ocorrência de valores com base nos dados. Nossos dados seriam todas as possíveis combinações entre oito tipos de peças, de 6 "classes" diferentes,
+totalizando 262144 commmbinações diferentes. Com o histograma feito, vimos que o contexto do trabalho seria achar a melhor combinação possível, que seria a combinação que teria o maior team score, então achamos viável
+manter em torno de 50 registros para continuar com o trabalho. Por tentativa e erro, foi desenvolvido um filtro que pegava apenas as combinações que possuísem o team score superior a 865 pontos.
