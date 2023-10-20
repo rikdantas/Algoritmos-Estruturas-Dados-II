@@ -39,3 +39,6 @@ O entregável inclui o código e a explicação contextualizada para o jogo F1 C
 A tarefa 1 pede um histograma que nada mais é que um gráfico que conta a ocorrência de valores com base nos dados. Nossos dados seriam todas as possíveis combinações entre oito tipos de peças, de 6 "classes" diferentes,
 totalizando 262144 commmbinações diferentes. Com o histograma feito, vimos que o contexto do trabalho seria achar a melhor combinação possível, que seria a combinação que teria o maior team score, então achamos viável
 manter em torno de 50 registros para continuar com o trabalho. Por tentativa e erro, foi desenvolvido um filtro que pegava apenas as combinações que possuísem o team score superior a 865 pontos.
+
+### Link do vídeo no Loom
+<https://www.loom.com/share/e01bb46f742d4a6d96ecf4c2941309f7?sid=a2e5bf38-5088-4d7d-b2d6-979185d8fe0b>
