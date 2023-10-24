@@ -1,4 +1,4 @@
-# Week04
+# U1T4
 ## Componentes: Paulo Ricardo Dantas e Ivamar Dantas Roque
 Para as semanas 03 e 04 foram passados a conclusão do curso Introduct to Algorithms do DataQuest e o trabalho 4 da unidade 1. Nesse repositório
 vai ser disponbilizado o código base que foi submitido para o projeto guiado que está no fim do curso Introduct to Algorithms. Com base nesse projeto 

@@ -1,4 +1,4 @@
-# week02
+# U1T2
 
 Na segunda semana foi desenvolvido um código com o objetivo de complementar palavras. Primeiro dado um corpus (conjunto de texto), após ler ele, o programa vai processá-lo e adicioná-lo a uma árvore AVL. 
 A partir dai vai ser pedido um prefixo que o usuário vai digitar e vão ser retornado todas as palavras que começam com aquele prefixo e estão contidas na árvore.
