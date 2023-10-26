@@ -24,3 +24,6 @@ O requisito 01 consiste em escolher 5 redes do dataset da Universidade de Stanfo
 | [Amazon product co-purchasing network](https://snap.stanford.edu/data/amazon0302.html) | A rede foi coletada rastreando o site da Amazon. Ela é baseada na funcionalidade 'Clientes que compraram este item também compraram' do site da Amazon. Se um produto i é frequentemente comprado junto com o produto j, o grafo contém uma aresta direcionada de i para j. Os dados foram coletados em 2 de março de 2003. |
 
 O código que vai ser usado como base para baixar os datasets e criar os grafos pode ser encontrado [aqui](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/blob/main/U2T2/source/U2T2_Requisito_01.ipynb).
+
+## Requisito 02
+O requisito 02 consiste em fazer um gráfico sobre assortatividade. Para vê-lo basta clicar [aqui](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/tree/main/U2T2/Requisito_02).
