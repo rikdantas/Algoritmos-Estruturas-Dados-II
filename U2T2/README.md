@@ -27,3 +27,6 @@ O código que vai ser usado como base para baixar os datasets e criar os grafos 
 
 ## Requisito 02
 O requisito 02 consiste em fazer um gráfico sobre assortatividade. Para vê-lo basta clicar [aqui](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/tree/main/U2T2/Requisito_02).
+
+## Requisito 03
+O requisito 03 consiste em fazer uma tabela contendo alguns atributos. Para ver a resolução desse requisito basta clicar [aqui](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/tree/main/U2T2/Requisito_03).
