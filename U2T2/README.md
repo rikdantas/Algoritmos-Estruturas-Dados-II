@@ -30,3 +30,5 @@ O requisito 02 consiste em fazer um gráfico sobre assortatividade. Para vê-lo 
 
 ## Requisito 03
 O requisito 03 consiste em fazer uma tabela contendo alguns atributos. Para ver a resolução desse requisito basta clicar [aqui](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/tree/main/U2T2/Requisito_03).
+
+## [Link do vídeo](https://www.loom.com/share/bea00241f47d45f99c5e01f6af74a688?sid=a7819d69-aafb-49de-a7ca-c1b49be25c03)
