@@ -41,3 +41,7 @@ As redes escolhidas foram: Golden State Warriors, Olympic Games, Nike Inc e Tiss
 | Olympic Games  | https://en.wikipedia.org/wiki/Olympic_Games |
 | Nike, Inc. | https://en.wikipedia.org/wiki/Nike,_Inc. |
 | Tissot | https://en.wikipedia.org/wiki/Tissot |
+
+Para transformar essas páginas em redes, foi utilizado a biblioteca da wikipedia. O código utilizado foi o [U2T3_Requisito_1.ipynb](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/blob/main/U2T3/source/U2T3_Requisito_1.ipynb). Porém a execução desse código é demorado, tendo células que demoraram cerca de 50 minutos para executar, então foram baixados os arquivos graphml resultantes desse notebook, e foram upados em um drive, para que se alguém for reproduzir esse repositório, não precise rodar novamente o notebook por horas. 
+
+O notebook [U2T3_Compose.ipynb](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/blob/main/U2T3/source/U2T3_Compose.ipynb) importa as 4 redes e usa o método compose da biblioteca networkx para uní-las em apenas uma (*fgraph.graphml*). Note que a quantidade de nós da rede final não é exatamente a soma da quantidade de nós de cada uma das redes, isso devido ao fato que entre essas redes existem alguns nós e arestas que são comuns, que é uma das finalidades desse trabalho, achar nós e arestas comuns em diferentes redes. As redes resultantes podem ser encontradas nesse [link](https://drive.google.com/drive/folders/1Q_kZAwqZ8u2u9eWlB67fhz2Qq-nbzjLf?usp=drive_link).
