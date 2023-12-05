@@ -45,3 +45,31 @@ As redes escolhidas foram: Golden State Warriors, Olympic Games, Nike Inc e Tiss
 Para transformar essas páginas em redes, foi utilizado a biblioteca da wikipedia. O código utilizado foi o [U2T3_Requisito_1.ipynb](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/blob/main/U2T3/source/U2T3_Requisito_1.ipynb). Porém a execução desse código é demorado, tendo células que demoraram cerca de 50 minutos para executar, então foram baixados os arquivos graphml resultantes desse notebook, e foram upados em um drive, para que se alguém for reproduzir esse repositório, não precise rodar novamente o notebook por horas. 
 
 O notebook [U2T3_Compose.ipynb](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/blob/main/U2T3/source/U2T3_Compose.ipynb) importa as 4 redes e usa o método compose da biblioteca networkx para uní-las em apenas uma (*fgraph.graphml*). Note que a quantidade de nós da rede final não é exatamente a soma da quantidade de nós de cada uma das redes, isso devido ao fato que entre essas redes existem alguns nós e arestas que são comuns, que é uma das finalidades desse trabalho, achar nós e arestas comuns em diferentes redes. As redes resultantes podem ser encontradas nesse [link](https://drive.google.com/drive/folders/1Q_kZAwqZ8u2u9eWlB67fhz2Qq-nbzjLf?usp=drive_link).
+
+## Requisito 2
+Nesse requisito é pedido que sejam geradas 4 imagens usando o gephi, aonde elas vão estar coloridas conforme algum atributo. Os atributos são *Degree, Closeness, Betweenness* e *Eigenvector*. Como a rede ficou muito grande (cerca de 8000 nós), a imagem iria ficar com a visualização muito prejudicada, então para cada atributo foram filtradas apenas os nós que tinha o maior valor de cada atributo para aparecer nas imagens.
+
+A paleta de cores usada foi a da imagem a seguir, aonde quanto mais vermelho, menor o valor do atributo e quanto mais azul, maior o valor do atributo.
+
+![](img/Requisito_2_Paleta.png)
+
+### Degree Centrality
+![](img/Requisito_2_Degree.png)
+
+O *Degree Centrality* basicamente é a métrica que conta o número de conexões do nó. Lembre que para como nossa rede é uma rede dirigida, essa métrica é a soma do *in-degree* e *out-degree*, que seriam as conexões de entrada e de saída do nó. Como podemos ver na imagem acima, o nó que possui maior grau é o nó *Olympic Games*.
+
+### Closeness Centrality
+![](img/Requisito_2_Closeness.png)
+
+O *Closeness Centrality* é a distância média de um nó para os outros nós. Em outras palavras seria o quão perto um nó está dos outros. Como podemos ver na imagem, o nó com a maior distância média também foi o *Olympic Games*.
+
+### Betweenness Centrality
+![](img/Requisito_2_Betweenness.png)
+
+O *Betweenness Centrality* mede o menor caminho entre um nó e outro na rede. É importante falar que quanto maior essa métrica for, maior será a chance do nó ser um nó ponte, que seria que passa um tráfego muito grande por ele. Para a nossa rede, o nó com maior *betwenness* foi o nó *Switzerland*.
+
+### Eigenvector Centrality
+![](img/Requisito_2_Eigenvector.png)
+
+O *Eigenvector Centrality*, que também pode ser traduzido como autovalor, mede o quão um nó possui vizinhos importantes. Para a nossa rede, o nó com maior autovalor foi o nó *Basketball*.
+
