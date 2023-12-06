@@ -95,4 +95,9 @@ Para realização do requisito 4, foi necessário o auxílio da biblioteca netwo
 
 Falando um pouco sobre a nossa rede, como a nossa rede é muito grande, existem muitos nós com uma disparidade muito grande de grau. Isso se reflete no gráfico plotado, 464 shell possui apenas um nó e para destacá-lo foi necessário puxar ele para mais longe. 
 
+## Requisito 5
+![](img/Requisito_5_webpage.png)
+
+No requisito 5, foi pedido para que fosse gerada uma rede em produção, que seria nada mais que exportar a rede para uma página web. Foi usado o plugin SigmaExporter para exportar a rede para um template sigma e a rede foi upada no github. Para acessa basta clicar no link a seguir. [![](https://img.shields.io/badge/webpage-open%20here-green)](https://rikdantas.github.io/netdeploy/U2T3_network/)
+
 # [Link do vídeo](https://www.loom.com/share/f5c53fa67a7e4c62818bfc4a04df9b47?sid=b4d7ae68-aad7-4dbd-a535-6eeed83bb22d)
