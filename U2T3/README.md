@@ -74,6 +74,8 @@ O *Betweenness Centrality* mede o menor caminho entre um nó e outro na rede. É
 O *Eigenvector Centrality*, que também pode ser traduzido como autovalor, mede o quão um nó possui vizinhos importantes. Para a nossa rede, o nó com maior autovalor foi o nó *Basketball*.
 
 ## Requisito 3
+
+Para acessar o notebook em que o requisito 3 foi desenvolvido basta clicar nesse [link](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/blob/main/U2T3/source/U2T3_Requisito_3.ipynb).
 ### Probability Density Function
 ![](img/Requisito_3_probability_density_function.png)
 
