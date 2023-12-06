@@ -94,3 +94,5 @@ A Cumulative Distribution Function (CDF) é uma função que mostra a probabilid
 Para realização do requisito 4, foi necessário o auxílio da biblioteca networkx, para que fosse encontrado os k-core e o k-shell. Para acessar basta clicar [aqui](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/blob/main/U2T3/source/U2T3_Requisito_4.ipynb). Com o k-core em mãos foi utilizado o gephi para colorir os nós. 
 
 Falando um pouco sobre a nossa rede, como a nossa rede é muito grande, existem muitos nós com uma disparidade muito grande de grau. Isso se reflete no gráfico plotado, 464 shell possui apenas um nó e para destacá-lo foi necessário puxar ele para mais longe. 
+
+# [Link do vídeo](https://www.loom.com/share/f5c53fa67a7e4c62818bfc4a04df9b47?sid=b4d7ae68-aad7-4dbd-a535-6eeed83bb22d)
