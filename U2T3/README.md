@@ -94,3 +94,8 @@ A Cumulative Distribution Function (CDF) é uma função que mostra a probabilid
 Para realização do requisito 4, foi necessário o auxílio da biblioteca networkx, para que fosse encontrado os k-core e o k-shell. Para acessar basta clicar [aqui](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/blob/main/U2T3/source/U2T3_Requisito_4.ipynb). Com o k-core em mãos foi utilizado o gephi para colorir os nós. 
 
 Falando um pouco sobre a nossa rede, como a nossa rede é muito grande, existem muitos nós com uma disparidade muito grande de grau. Isso se reflete no gráfico plotado, 464 shell possui apenas um nó e para destacá-lo foi necessário puxar ele para mais longe. 
+
+## Requisito 5
+![](img/Requisito_5_webpage.png)
+
+No requisito 5, foi pedido para que fosse gerada uma rede em produção, que seria nada mais que exportar a rede para uma página web. Foi usado o plugin SigmaExporter para exportar a rede para um template sigma e a rede foi upada no github. Para acessa basta clicar no link a seguir. [![](https://img.shields.io/badge/webpage-open%20here-green)](https://rikdantas.github.io/netdeploy/U2T3_network/)
