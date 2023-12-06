@@ -87,3 +87,10 @@ Note que a linha vermelha não passa exatamente nas barras plotadas do histogram
 ![](img/Requisito_3_cumulative_density_function.png)
 
 A Cumulative Distribution Function (CDF) é uma função que mostra a probabilidade acumulativa de uma variável aleatória ser menor ou igual a um valor específico. Ela ajuda a entender como a probabilidade se acumula ao longo de uma escala de valores, sendo útil para calcular percentis e avaliar a probabilidade de eventos até certo ponto. Em resumo, a CDF complementa a Probability Density Function (PDF) ao fornecer uma visão acumulativa da distribuição de probabilidade. 
+
+## Requisito 4
+![](img/Requisito_4_k_core.png)
+
+Para realização do requisito 4, foi necessário o auxílio da biblioteca networkx, para que fosse encontrado os k-core e o k-shell. Para acessar basta clicar [aqui](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/blob/main/U2T3/source/U2T3_Requisito_4.ipynb). Com o k-core em mãos foi utilizado o gephi para colorir os nós. 
+
+Falando um pouco sobre a nossa rede, como a nossa rede é muito grande, existem muitos nós com uma disparidade muito grande de grau. Isso se reflete no gráfico plotado, 464 shell possui apenas um nó e para destacá-lo foi necessário puxar ele para mais longe. 
