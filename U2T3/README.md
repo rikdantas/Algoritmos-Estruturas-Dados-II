@@ -73,3 +73,15 @@ O *Betweenness Centrality* mede o menor caminho entre um nó e outro na rede. É
 
 O *Eigenvector Centrality*, que também pode ser traduzido como autovalor, mede o quão um nó possui vizinhos importantes. Para a nossa rede, o nó com maior autovalor foi o nó *Basketball*.
 
+## Requisito 3
+### Probability Density Function
+![](img/Requisito_3_probability_density_function.png)
+
+A Probability Density Function (PDF) é uma função matemática usada na computação e análise de dados para descrever a probabilidade de uma variável aleatória contínua assumir diferentes valores. Ela mostra como a probabilidade está distribuída ao longo dos possíveis resultados. A integral da PDF em um intervalo fornece a probabilidade de a variável assumir um valor nesse intervalo. Em resumo, a PDF é essencial para modelar e entender a distribuição de probabilidade em dados contínuos, sendo útil em áreas como aprendizado de máquina e estatísticas.
+
+Note que a linha vermelha não passa exatamente nas barras plotadas do histograma, isso se deve a variação do eixo x não ser pequena o suficiente para mostrar todos os valores do histograma.
+
+### Cumulative Density Function
+![](img/Requisito_3_cumulative_density_function.png)
+
+A Cumulative Distribution Function (CDF) é uma função que mostra a probabilidade acumulativa de uma variável aleatória ser menor ou igual a um valor específico. Ela ajuda a entender como a probabilidade se acumula ao longo de uma escala de valores, sendo útil para calcular percentis e avaliar a probabilidade de eventos até certo ponto. Em resumo, a CDF complementa a Probability Density Function (PDF) ao fornecer uma visão acumulativa da distribuição de probabilidade. 
