@@ -12,3 +12,6 @@ Foram disponibilizados vários projetos para a terceira unidade. A tarefa que a 
 
 # Resolução do trabalho
 
+Antes de começar a resolução é necessário que se faça a devida referência, pois os códigos que vão ser usados para o nosso estudo de caso estão disponíveis no github do finlandês Ossi Myllymäki, mais especificamente nesse [repositório](https://github.com/omyllymaki/conquering-seven-hills/tree/main).
+
+
