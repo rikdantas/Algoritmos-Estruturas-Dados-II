@@ -61,7 +61,7 @@ Para fazer o uso desse repositório a motivação foi a seguinte. Um turista est
 
 OBS: Os pontos foram escolhidos aleatoriamente e também podem ser modificados.
 
-Pensando nisso, foi elaborado um programa que dado os pontos acima, elaborasse a melhor rota saindo do Copacabana Palace, passando por cada ponto turístico uma vez e voltando para o Copacabana Palace no final. Para encontrar o melhor caminho, foi usado o algoritmo Simulated Annealing.
+Pensando nisso, foi elaborado um programa que dado os pontos acima, traçasse a melhor rota saindo do Copacabana Palace, passando por cada ponto turístico uma vez e voltando para o Copacabana Palace no final. O algoritmo vai procurar qual a menor distância percorrida passando por todos os pontos. Para encontrar o melhor caminho, foi usado o algoritmo Simulated Annealing.
 
 O programa foi desenvolvido no colab e está disponivel nesse [link](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/blob/main/U3T1/source/U3T1.ipynb). Os resultados do notebook foram baixados e estão disponíveis na pasta [results](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/tree/main/U3T1/results) desse repositório. Para exemplificar iremos deixar alguma imagens do resultados no decorrer do README.
 
@@ -75,7 +75,7 @@ Na imagem acima podemos ver a saída do mapa da biblioteca OSMNX com os pontos m
 
 ![](img/rj_optimal_route.png)
 
-O algoritmo resultou na seguinte sequência para visitação dos pontos: Pão de açúcar, Cristo Redentor, Maracanã, Museu do amanhã, Real Gabinete Português, Escadaria Selarón, Parque Lage e por último o Forte de Copacabana. A rota totalalizou **58.77 km**.
+O algoritmo resultou na seguinte sequência para visitação dos pontos: Pão de açúcar, Cristo Redentor, Maracanã, Museu do amanhã, Real Gabinete Português, Escadaria Selarón, Parque Lage e por último o Forte de Copacabana. A rota totalalizou **58.77 km**. Note que o algoritmo encontra o menor caminho, como não é considerado o trânsito, o menor caminho pode não ser o mais rápido, mas vai ser o mais curto.
 
 # Referências
 
