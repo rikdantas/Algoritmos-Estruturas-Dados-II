@@ -68,11 +68,13 @@ O programa foi desenvolvido no colab e está disponivel nesse [link](https://git
 ## Pontos no mapa
 
 ![](img/rj_places_on_map.png)
+
 Na imagem acima podemos ver a saída do mapa da biblioteca OSMNX com os pontos marcados no mapa.
 
 ## Rota otimizada
 
 ![](img/rj_optimal_route.png)
+
 O algoritmo resultou na seguinte sequência para visitação dos pontos: Pão de açúcar, Cristo Redentor, Maracanã, Museu do amanhã, Real Gabinete Português, Escadaria Selarón, Parque Lage e por último o Forte de Copacabana. A rota totalalizou **58.77 km**.
 
 # Referências
