@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0f794ad61a5c8e9ebcad7e11111660e0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0f794ad61a5c8e9ebcad7e11111660e0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0f794ad61a5c8e9ebcad7e11111660e0 = L.map(
+                "map_0f794ad61a5c8e9ebcad7e11111660e0",
+                {
+                    center: [-22.967154600081095, -43.17895302142972],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+
+            
+
+        
+    
+            var tile_layer_70d76fe6c37a35e9905c70831f148718 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            var marker_a698a91739cb0f9d0dd1657e247d2d4e = L.marker(
+                [-22.967154600081095, -43.17895302142972],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            marker_a698a91739cb0f9d0dd1657e247d2d4e.bindTooltip(
+                `<div>
+                     Copacabana Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3cac2d130e4d31db583701bea841ebc2 = L.marker(
+                [-22.967154600081095, -43.17895302142972],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            var div_icon_7119408fad042adb690e355b9144233f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eCopacabana Palace\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_3cac2d130e4d31db583701bea841ebc2.setIcon(div_icon_7119408fad042adb690e355b9144233f);
+        
+    
+            var marker_4299798e0a44c39f2849ba9ca0849078 = L.marker(
+                [-22.949110827078847, -43.1544314260103],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            marker_4299798e0a44c39f2849ba9ca0849078.bindTooltip(
+                `<div>
+                     Pão de Açúcar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6621c8e7570fd20378a241e34da3140c = L.marker(
+                [-22.949110827078847, -43.1544314260103],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            var div_icon_fa62b49273ef545237ae8e1cb5e58361 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eP\u00e3o de A\u00e7\u00facar\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_6621c8e7570fd20378a241e34da3140c.setIcon(div_icon_fa62b49273ef545237ae8e1cb5e58361);
+        
+    
+            var marker_089227d18003e77449761017f1d37fd9 = L.marker(
+                [-22.951620238852218, -43.210629067069696],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            marker_089227d18003e77449761017f1d37fd9.bindTooltip(
+                `<div>
+                     Cristo Redentor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e58f648ab30da17feae24ad9650c748b = L.marker(
+                [-22.951620238852218, -43.210629067069696],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            var div_icon_03f48b52cf76ff89b568ba3dc1e2d95a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eCristo Redentor\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_e58f648ab30da17feae24ad9650c748b.setIcon(div_icon_03f48b52cf76ff89b568ba3dc1e2d95a);
+        
+    
+            var marker_73308d44e61bfe5ec8c3e90ede2ca758 = L.marker(
+                [-22.89286439808468, -43.18092599883423],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            marker_73308d44e61bfe5ec8c3e90ede2ca758.bindTooltip(
+                `<div>
+                     Museu do Amanhã
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_413478ddd9b726dc0c85b5befbc836dd = L.marker(
+                [-22.89286439808468, -43.18092599883423],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            var div_icon_52e229b64dd261ac288dc6adcc08fa86 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eMuseu do Amanh\u00e3\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_413478ddd9b726dc0c85b5befbc836dd.setIcon(div_icon_52e229b64dd261ac288dc6adcc08fa86);
+        
+    
+            var marker_e6a7692b65c15bbba2e2b1ea98c477b1 = L.marker(
+                [-22.911918960450024, -43.2301069838377],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            marker_e6a7692b65c15bbba2e2b1ea98c477b1.bindTooltip(
+                `<div>
+                     Maracanã
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9ec73d13915b447290f8a895d1d75e8 = L.marker(
+                [-22.911918960450024, -43.2301069838377],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            var div_icon_8dea70af31c8c5e851f9ac90064ffe0b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eMaracan\u00e3\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_d9ec73d13915b447290f8a895d1d75e8.setIcon(div_icon_8dea70af31c8c5e851f9ac90064ffe0b);
+        
+    
+            var marker_fc5ab117e99db29859c98bfe56e6a586 = L.marker(
+                [-22.958025052092207, -43.21158925922644],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            marker_fc5ab117e99db29859c98bfe56e6a586.bindTooltip(
+                `<div>
+                     Parque Lage
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f2ddc044bdb575a36b93be0b9eb08aa = L.marker(
+                [-22.958025052092207, -43.21158925922644],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            var div_icon_da34bb26826a4e81dc98b75a766f2bf6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eParque Lage\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_8f2ddc044bdb575a36b93be0b9eb08aa.setIcon(div_icon_da34bb26826a4e81dc98b75a766f2bf6);
+        
+    
+            var marker_7b0b4c095a1847647164bcb0d3a0fe1c = L.marker(
+                [-22.91524533910577, -43.179200921195786],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            marker_7b0b4c095a1847647164bcb0d3a0fe1c.bindTooltip(
+                `<div>
+                     Escadaria Selarón
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6015e5cfbbba39792b17d18fcaac851 = L.marker(
+                [-22.91524533910577, -43.179200921195786],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            var div_icon_90294893fb98ef79980f282a0a486af5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eEscadaria Selar\u00f3n\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_e6015e5cfbbba39792b17d18fcaac851.setIcon(div_icon_90294893fb98ef79980f282a0a486af5);
+        
+    
+            var marker_f481b474c39e686a6f0c4b7de64f6913 = L.marker(
+                [-22.905103256171493, -43.182111557380146],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            marker_f481b474c39e686a6f0c4b7de64f6913.bindTooltip(
+                `<div>
+                     Real Gabinete Português
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dadaec4f40a0a1b82a650a14726a642 = L.marker(
+                [-22.905103256171493, -43.182111557380146],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            var div_icon_7d5225ccf18ee927f3002a7f8edf907b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eReal Gabinete Portugu\u00eas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_9dadaec4f40a0a1b82a650a14726a642.setIcon(div_icon_7d5225ccf18ee927f3002a7f8edf907b);
+        
+    
+            var marker_02df38f36dacce15f45833580aa08003 = L.marker(
+                [-22.985736692386872, -43.18785809360464],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            marker_02df38f36dacce15f45833580aa08003.bindTooltip(
+                `<div>
+                     Forte de Copacabana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb8562693202fc2e8340172670f950b3 = L.marker(
+                [-22.985736692386872, -43.18785809360464],
+                {}
+            ).addTo(map_0f794ad61a5c8e9ebcad7e11111660e0);
+        
+    
+            var div_icon_589e260ef9be912a0697cd724ef73f73 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eForte de Copacabana\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_eb8562693202fc2e8340172670f950b3.setIcon(div_icon_589e260ef9be912a0697cd724ef73f73);
+        
+    
+            var measure_control_07edf1704bbc8fd310e26dabe121160f = new L.Control.Measure(
+                {"position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "meters", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_0f794ad61a5c8e9ebcad7e11111660e0.addControl(measure_control_07edf1704bbc8fd310e26dabe121160f);
+
+        
+</script>
+</html>
