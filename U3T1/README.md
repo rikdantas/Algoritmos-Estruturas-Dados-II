@@ -109,3 +109,5 @@ Na imagem acima podemos ver a saída do mapa da biblioteca OSMNX com os pontos m
 # Referências
 
 Os códigos usados no nosso estudo de caso estão disponíveis no github do finlandês Ossi Myllymäki, mais especificamente nesse [repositório](https://github.com/omyllymaki/conquering-seven-hills/tree/main).
+
+# [Link do vídeo](https://www.youtube.com/watch?v=jrYKK8JxdWc)
