@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_48b600cbe0c7aafb555deb6192292365 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_48b600cbe0c7aafb555deb6192292365" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_48b600cbe0c7aafb555deb6192292365 = L.map(
+                "map_48b600cbe0c7aafb555deb6192292365",
+                {
+                    center: [-6.266038338150912, -36.505793262569],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_48b600cbe0c7aafb555deb6192292365);
+
+            
+
+        
+    
+            var tile_layer_d206668ddd09324cd025a1b6912f704d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var marker_40a498d891d63c3dd3cd078021df09db = L.marker(
+                [-6.555357237989125, -36.59445510846992],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_40a498d891d63c3dd3cd078021df09db.bindTooltip(
+                `<div>
+                     Carnaúba dos Dantas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41c26faf5b974b341054a42b2e017746 = L.marker(
+                [-6.555357237989125, -36.59445510846992],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_2d763157462e2dac8b55d2a6b38cc98c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eCarna\u00faba dos Dantas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_41c26faf5b974b341054a42b2e017746.setIcon(div_icon_2d763157462e2dac8b55d2a6b38cc98c);
+        
+    
+            var marker_6105da8e0a3086cb40cf17d5bdb56476 = L.marker(
+                [-5.93537594202332, -36.362882025155926],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_6105da8e0a3086cb40cf17d5bdb56476.bindTooltip(
+                `<div>
+                     Serra Verde
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33b2060dc15c2c6844dab93301073099 = L.marker(
+                [-5.93537594202332, -36.362882025155926],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_3d76f195888d3d937d26922eb072fbfb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eSerra Verde\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_33b2060dc15c2c6844dab93301073099.setIcon(div_icon_3d76f195888d3d937d26922eb072fbfb);
+        
+    
+            var marker_35f41216a079f8bd3085984e6fd3082f = L.marker(
+                [-6.036517323103555, -36.345406549708684],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_35f41216a079f8bd3085984e6fd3082f.bindTooltip(
+                `<div>
+                     Cruzeiro de Cerro Corá
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ac528f568729556c484565e2d9ecbeb = L.marker(
+                [-6.036517323103555, -36.345406549708684],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_777c9ed2ecd13621cc1d896b32155553 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eCruzeiro de Cerro Cor\u00e1\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_7ac528f568729556c484565e2d9ecbeb.setIcon(div_icon_777c9ed2ecd13621cc1d896b32155553);
+        
+    
+            var marker_55a800f292d402f064fcd4a69fcba668 = L.marker(
+                [-6.040478609843232, -36.38915528827609],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_55a800f292d402f064fcd4a69fcba668.bindTooltip(
+                `<div>
+                     Nascente do Rio Potengi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e0d3b8dbe2d9cd1a242f26af3003a53 = L.marker(
+                [-6.040478609843232, -36.38915528827609],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_88ab0c433afca6c32baf43c37c47c66a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eNascente do Rio Potengi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_8e0d3b8dbe2d9cd1a242f26af3003a53.setIcon(div_icon_88ab0c433afca6c32baf43c37c47c66a);
+        
+    
+            var marker_6adf3c5d66160fb06ba206a7ff7bc499 = L.marker(
+                [-6.079850635049912, -36.40243563066872],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_6adf3c5d66160fb06ba206a7ff7bc499.bindTooltip(
+                `<div>
+                     Vale Vulcânico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a4603f47610162cd9871cc17309069d = L.marker(
+                [-6.079850635049912, -36.40243563066872],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_dd07fea38e66f724c9d1c2ba7d2fb3e4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eVale Vulc\u00e2nico\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_2a4603f47610162cd9871cc17309069d.setIcon(div_icon_dd07fea38e66f724c9d1c2ba7d2fb3e4);
+        
+    
+            var marker_6fa013c28250da2e1c7471634ff5335b = L.marker(
+                [-6.104520485914127, -36.43607495398115],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_6fa013c28250da2e1c7471634ff5335b.bindTooltip(
+                `<div>
+                     Mirante Santa Rita
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ef0ec267e0a6744df123b2d86ad0633 = L.marker(
+                [-6.104520485914127, -36.43607495398115],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_6c7e54c5ab9e5ae4ad6c4a0f42a11b28 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eMirante Santa Rita\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_2ef0ec267e0a6744df123b2d86ad0633.setIcon(div_icon_6c7e54c5ab9e5ae4ad6c4a0f42a11b28);
+        
+    
+            var marker_9087b93e8164b36bcd69aa8290923af6 = L.marker(
+                [-6.128630963890738, -36.54348363079907],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_9087b93e8164b36bcd69aa8290923af6.bindTooltip(
+                `<div>
+                     Tanque dos Poscianos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe323b911c6049a1092142bb4931882a = L.marker(
+                [-6.128630963890738, -36.54348363079907],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_759421100eb1f64f80ba93152ec1564f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eTanque dos Poscianos\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_fe323b911c6049a1092142bb4931882a.setIcon(div_icon_759421100eb1f64f80ba93152ec1564f);
+        
+    
+            var marker_2eb2c18efa548a638c39c70f98cfd37e = L.marker(
+                [-6.186880964817371, -36.5772292755495],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_2eb2c18efa548a638c39c70f98cfd37e.bindTooltip(
+                `<div>
+                     Lagoa do Santo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a225c316bcac578f2e79fef7c1a78350 = L.marker(
+                [-6.186880964817371, -36.5772292755495],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_02411837af6bc262f55c0f3602b2ff3e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eLagoa do Santo\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_a225c316bcac578f2e79fef7c1a78350.setIcon(div_icon_02411837af6bc262f55c0f3602b2ff3e);
+        
+    
+            var marker_1c687977758b71c6e6c7052799f655a1 = L.marker(
+                [-6.203041062831193, -36.560539524829466],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_1c687977758b71c6e6c7052799f655a1.bindTooltip(
+                `<div>
+                     Pico do Totoró
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a64008a80cb6ff591465ee0b9d46be95 = L.marker(
+                [-6.203041062831193, -36.560539524829466],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_fd296013ce15fd721ee25311b968bfe3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003ePico do Totor\u00f3\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_a64008a80cb6ff591465ee0b9d46be95.setIcon(div_icon_fd296013ce15fd721ee25311b968bfe3);
+        
+    
+            var marker_73dc5de080600dced896fe577e358620 = L.marker(
+                [-6.266038338150912, -36.505793262569],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_73dc5de080600dced896fe577e358620.bindTooltip(
+                `<div>
+                     Morro do Cruzeiro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2579d5e6b2c4348b6efd928e484d33fe = L.marker(
+                [-6.266038338150912, -36.505793262569],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_51961eddd8b43e80c78431b267d8b3cd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eMorro do Cruzeiro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_2579d5e6b2c4348b6efd928e484d33fe.setIcon(div_icon_51961eddd8b43e80c78431b267d8b3cd);
+        
+    
+            var marker_95347df746ed4764f09c61d2be3f60f4 = L.marker(
+                [-6.322984903122427, -36.55112642087966],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_95347df746ed4764f09c61d2be3f60f4.bindTooltip(
+                `<div>
+                     Mina Brejuí
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f4c959a07c7617a301b0e5982b33a16 = L.marker(
+                [-6.322984903122427, -36.55112642087966],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_5255452ae92e35d9a21eba5788f53b2c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eMina Breju\u00ed\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_8f4c959a07c7617a301b0e5982b33a16.setIcon(div_icon_5255452ae92e35d9a21eba5788f53b2c);
+        
+    
+            var marker_13d0681d40cd0e567da47ebe52ab2a69 = L.marker(
+                [-6.336819844366295, -36.493344271146164],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_13d0681d40cd0e567da47ebe52ab2a69.bindTooltip(
+                `<div>
+                     Cânion dos Apertados
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87b032852db3da40bb292697079555a4 = L.marker(
+                [-6.336819844366295, -36.493344271146164],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_50eeb3dbdc66c0a99320efb84277b347 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eC\u00e2nion dos Apertados\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_87b032852db3da40bb292697079555a4.setIcon(div_icon_50eeb3dbdc66c0a99320efb84277b347);
+        
+    
+            var marker_2947237a5cd86a9312899526eec18cbe = L.marker(
+                [-6.4236931896265705, -36.60954738370186],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_2947237a5cd86a9312899526eec18cbe.bindTooltip(
+                `<div>
+                     Açude Gargalheiras
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_499b4911fd4b791c35a3bf163b38d0cf = L.marker(
+                [-6.4236931896265705, -36.60954738370186],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_f50af2abfb9416a37e277691ded8aa81 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eA\u00e7ude Gargalheiras\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_499b4911fd4b791c35a3bf163b38d0cf.setIcon(div_icon_f50af2abfb9416a37e277691ded8aa81);
+        
+    
+            var marker_f560ec14c69ec8dec655bdd5fbea845d = L.marker(
+                [-6.441211636597598, -36.619264787492256],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_f560ec14c69ec8dec655bdd5fbea845d.bindTooltip(
+                `<div>
+                     Poço do Arroz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2abe65e54e53b8d60c659c73ec400115 = L.marker(
+                [-6.441211636597598, -36.619264787492256],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_b5de8a405de2b7f5e31c1d6806e1fa86 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003ePo\u00e7o do Arroz\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_2abe65e54e53b8d60c659c73ec400115.setIcon(div_icon_b5de8a405de2b7f5e31c1d6806e1fa86);
+        
+    
+            var marker_ab31c598f32f870d6d4b11157e34d66e = L.marker(
+                [-6.438420026473238, -36.641124524168106],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_ab31c598f32f870d6d4b11157e34d66e.bindTooltip(
+                `<div>
+                     Cruzeiro Acari
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3601e94bee4d6a8f84afd9444e8c1411 = L.marker(
+                [-6.438420026473238, -36.641124524168106],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_9bdff6e7177716b1baad7de539f71a1c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eCruzeiro Acari\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_3601e94bee4d6a8f84afd9444e8c1411.setIcon(div_icon_9bdff6e7177716b1baad7de539f71a1c);
+        
+    
+            var marker_bd45604bce8590fc7f0fa14796df27ec = L.marker(
+                [-6.494976464915262, -36.692231047983604],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_bd45604bce8590fc7f0fa14796df27ec.bindTooltip(
+                `<div>
+                     Marmitas do Rio Carnaúba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b638b5870de58a7a5dcb4137cb99bd25 = L.marker(
+                [-6.494976464915262, -36.692231047983604],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_eea20eb46ef34fd9361fecf99b1a1c0f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eMarmitas do Rio Carna\u00faba\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_b638b5870de58a7a5dcb4137cb99bd25.setIcon(div_icon_eea20eb46ef34fd9361fecf99b1a1c0f);
+        
+    
+            var marker_1de9b38d04a55cadc548b86e29c323d1 = L.marker(
+                [-6.5464921980997, -36.64847319018329],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_1de9b38d04a55cadc548b86e29c323d1.bindTooltip(
+                `<div>
+                     Serra da Rajada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c647fd54d55c53bfb152dae5c193bcc8 = L.marker(
+                [-6.5464921980997, -36.64847319018329],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_329893bba895f362089f7b46011b5216 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eSerra da Rajada\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_c647fd54d55c53bfb152dae5c193bcc8.setIcon(div_icon_329893bba895f362089f7b46011b5216);
+        
+    
+            var marker_1e0823a0da83e09cdf96727cba3c42c6 = L.marker(
+                [-6.561879321154472, -36.58571467171548],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_1e0823a0da83e09cdf96727cba3c42c6.bindTooltip(
+                `<div>
+                     Monte do Galo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_677f4057d2c7b156829176cc22d4f30a = L.marker(
+                [-6.561879321154472, -36.58571467171548],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_f16e5539976f47ffd7dad47443c8f571 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eMonte do Galo\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_677f4057d2c7b156829176cc22d4f30a.setIcon(div_icon_f16e5539976f47ffd7dad47443c8f571);
+        
+    
+            var marker_6c580fb414ad25fb926f2ba076e20081 = L.marker(
+                [-6.552006430263725, -36.55833215395265],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_6c580fb414ad25fb926f2ba076e20081.bindTooltip(
+                `<div>
+                     Xiquexique
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61861c8bfb514c0541a5effdac04689b = L.marker(
+                [-6.552006430263725, -36.55833215395265],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_c198976afd56d6d0846faa4efddc225e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eXiquexique\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_61861c8bfb514c0541a5effdac04689b.setIcon(div_icon_c198976afd56d6d0846faa4efddc225e);
+        
+    
+            var marker_b8d3e35e8d67dfeee48e3ba094508684 = L.marker(
+                [-6.52394286240364, -36.555902461348055],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_b8d3e35e8d67dfeee48e3ba094508684.bindTooltip(
+                `<div>
+                     Cachoeira dos Fundões
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79510f6e2424ba8d050e3ca89d97c1f9 = L.marker(
+                [-6.52394286240364, -36.555902461348055],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_6990cf9c241bc972cda8a300f50b5206 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eCachoeira dos Fund\u00f5es\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_79510f6e2424ba8d050e3ca89d97c1f9.setIcon(div_icon_6990cf9c241bc972cda8a300f50b5206);
+        
+    
+            var marker_4ec55def61567a2032aeecf875cf88bd = L.marker(
+                [-6.697442366386952, -36.628854421064624],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_4ec55def61567a2032aeecf875cf88bd.bindTooltip(
+                `<div>
+                     Açude Boqueirão
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12ae7f01771d4f22b449c1c013e9a3a8 = L.marker(
+                [-6.697442366386952, -36.628854421064624],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_97d7bcc4d2e84f62138cfc36969ed5ca = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eA\u00e7ude Boqueir\u00e3o\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_12ae7f01771d4f22b449c1c013e9a3a8.setIcon(div_icon_97d7bcc4d2e84f62138cfc36969ed5ca);
+        
+    
+            var marker_3548cd7d43a0fc2f14492b6282e5ec51 = L.marker(
+                [-6.710902828450624, -36.63349973713419],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            marker_3548cd7d43a0fc2f14492b6282e5ec51.bindTooltip(
+                `<div>
+                     Mirador
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1efbcab9bb08816d439914ce743b65ce = L.marker(
+                [-6.710902828450624, -36.63349973713419],
+                {}
+            ).addTo(map_48b600cbe0c7aafb555deb6192292365);
+        
+    
+            var div_icon_f7a4b40294e38ef109ea426a10cd31e2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 15pt\"\u003eMirador\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [250, 36]});
+            marker_1efbcab9bb08816d439914ce743b65ce.setIcon(div_icon_f7a4b40294e38ef109ea426a10cd31e2);
+        
+    
+            var measure_control_8205359b0b19eda51f9b7f8f93c9b9c7 = new L.Control.Measure(
+                {"position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "meters", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_48b600cbe0c7aafb555deb6192292365.addControl(measure_control_8205359b0b19eda51f9b7f8f93c9b9c7);
+
+        
+</script>
+</html>

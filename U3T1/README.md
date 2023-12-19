@@ -49,6 +49,7 @@ O Simulated Annealing é aplicado em problemas de otimização combinatorial, co
 
 # Resolução do trabalho
 
+## Rio de Janeiro
 Para fazer o uso desse repositório a motivação foi a seguinte. Um turista está hospedado no Copacabana Palace, no Rio de Janeiro, e ele quer visitar os seguintes pontos turísticos em um único dia:
 - Pão de Açúcar
 - Cristo Redentor
@@ -65,17 +66,45 @@ Pensando nisso, foi elaborado um programa que dado os pontos acima, traçasse a 
 
 O programa foi desenvolvido no colab e está disponivel nesse [link](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/blob/main/U3T1/source/U3T1.ipynb). Os resultados do notebook foram baixados e estão disponíveis na pasta [results](https://github.com/rikdantas/Algoritmos-Estruturas-Dados-II/tree/main/U3T1/results) desse repositório. Para exemplificar iremos deixar alguma imagens do resultados no decorrer do README.
 
-## Pontos no mapa
+### Pontos no mapa
 
 ![](img/rj_places_on_map.png)
 
 Na imagem acima podemos ver a saída do mapa da biblioteca OSMNX com os pontos marcados no mapa.
 
-## Rota otimizada
+### Menor rota
 
 ![](img/rj_optimal_route.png)
 
-O algoritmo resultou na seguinte sequência para visitação dos pontos: Pão de açúcar, Cristo Redentor, Maracanã, Museu do amanhã, Real Gabinete Português, Escadaria Selarón, Parque Lage e por último o Forte de Copacabana. A rota totalalizou **58.77 km**. Note que o algoritmo encontra o menor caminho, como não é considerado o trânsito, o menor caminho pode não ser o mais rápido, mas vai ser o mais curto.
+O algoritmo resultou na seguinte sequência para visitação dos pontos: Pão de açúcar, Cristo Redentor, Maracanã, Museu do amanhã, Real Gabinete Português, Escadaria Selarón, Parque Lage e por último o Forte de Copacabana. A rota totalizou **58.77 km**. Note que o algoritmo encontra o menor caminho, como não é considerado o trânsito, o menor caminho pode não ser o mais rápido, mas vai ser o mais curto.
+
+## Extra: Geoparque Seridó
+### Geoparque
+
+O conceito de Geoparque surgiu em meados da década de 1990 como uma resposta à necessidade de melhorar áreas com importância geológica na história da Terra e promover conservação dessas áreas. As paisagens e as formações geológicas são testemunhas importantes da evolução do Planeta Terra e determinantes para o futuro e seu desenvolvimento sustentável. Geoparques são áreas geográficas únicas e unificadas, onde os locais e paisagens de significado geológico internacional são gerenciados com um conceito holístico de proteção, educação e desenvolvimento sustentável. Disponível [aqui](http://geoparqueserido.com.br/?page_id=8414).
+
+### Geoparque Seridó
+
+![](img/geossitios_geoparque_serido.jpg)
+<p align="center">
+    Fonte: http://geoparqueserido.com.br
+</p>
+
+Na imagem acima podemos ver o Geoparque Seridó com todos os 21 geossítios destacados. Agora vai ser abordado um contexto diferente do passado. Supondo que um morador da cidade de Carnaúba dos Dantas queira visitar todos os geossítios do geoparque seridó em um único dia e queira saber qual o menor caminho a se seguir. 
+
+Vale lembrar que o algoritmo vai achar a menor distância e não o caminho mais rápido. Por exemplo: nessa área existem muitas estradas de terra, as quais podem ser o menor caminho entre dois pontos, mas devido a velocidade ao transitar nessas vias ser menor do que as estradas asfaltadas, o caminho mais curto pode demorar mais.
+
+### Pontos no mapa
+
+![](img/gs_places_on_map.png)
+
+Na imagem acima podemos ver a saída do mapa da biblioteca OSMNX com os pontos marcados no mapa.
+
+### Menor rota
+
+![](img/gs_optimal_route.png)
+
+ A rota totalizou **341.96 km**.
 
 # Referências
 
